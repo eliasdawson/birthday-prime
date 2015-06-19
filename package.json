@@ -1,0 +1,34 @@
+{
+  "name": "birthday-prime",
+  "version": "0.0.1",
+  "description": "Toy app to discover prime numbers related to your age.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasdawson/birthday-prime.git"
+  },
+  "author": {
+    "name": "Elias Dawson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliasdawson/birthday-prime/issues"
+  },
+  "homepage": "https://github.com/eliasdawson/birthday-prime#readme",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-browserify": "^4.2.1",
+    "karma-coverage": "^0.4.2",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}
